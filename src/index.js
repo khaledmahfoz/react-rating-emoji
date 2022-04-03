@@ -78,7 +78,8 @@ export const RatingComponent = ({ rating, onClick }) => {
 }
 
 RatingComponent.defaultProps = {
-	rating: 0
+	rating: 0,
+  onClick: () => {}
 }
 
 RatingComponent.propTypes = {
