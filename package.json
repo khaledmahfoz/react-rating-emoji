@@ -1,7 +1,7 @@
 {
   "name": "react-rating-emoji",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "An animated emoji rating component",
   "author": "https://github.com/ultimateakash",
   "license": "MIT",
   "repository": "https://github.com/ultimateakash/react-rating-emoji",
