@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styles from './styles.module.css'
 
-export const RatingComponent = ({ rating = 0, onClick }) => {
+export const RatingComponent = ({ rating, onClick }) => {
 
 	return (
 		<React.Fragment>
@@ -74,4 +75,13 @@ export const RatingComponent = ({ rating = 0, onClick }) => {
 			</svg>
 		</React.Fragment>
 	)
+}
+
+RatingComponent.defaultProps = {
+	rating: 0
+}
+
+RatingComponent.propTypes = {
+  rating: PropTypes.number,
+  onClick: PropTypes.func
 }

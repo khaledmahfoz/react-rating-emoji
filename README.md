@@ -33,7 +33,11 @@ const App = () => {
 export default App
 
 ```
-
+## Props
+| prop  | Type | Default | Required | Description |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| rating | `number` |  0 | no | current rating
+| onClick  | `event` |   | no | An event handler `(rating)`
 ## License
 
 MIT © [https://github.com/ultimateakash](https://github.com/https://github.com/ultimateakash)
