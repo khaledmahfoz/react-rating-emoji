@@ -2,6 +2,8 @@
 
 > An animated emoji rating component
 
+<p  align="center"><img  src="https://github.com/ultimateakash/react-rating-emoji/blob/master/example/public/react-rating-emoji.gif"></p>
+
 [![NPM](https://img.shields.io/npm/v/react-rating-emoji.svg)](https://www.npmjs.com/package/react-rating-emoji) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
